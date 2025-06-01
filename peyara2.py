@@ -1,4 +1,4 @@
-# Exploit Title: Peyara Remote Mouse v1.0.1 FILE UPLOAD
+# Exploit Title: Peyara Remote Mouse v1.0.1 Unauthenticated Arbitrary File Upload
 # Date: 2025-01-06
 # Exploit Author: tmrswrr
 # Software Link: https://peyara-remote-mouse.vercel.app/
