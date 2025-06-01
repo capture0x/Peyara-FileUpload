@@ -151,5 +151,5 @@ if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(execute_exploit(args.target))
 ```
 
- <img src="https://raw.githubusercontent.com/capture0x/Peyara/refs/heads/main/peyara1.png" width="100%"></img>
+ <img src="https://raw.githubusercontent.com/capture0x/Peyara-FileUpload/refs/heads/main/peyara2.png" width="100%"></img>
 
