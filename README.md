@@ -6,8 +6,9 @@
 ### Version: v1.0.1
 ### Tested on: Windows 10
 
-
-### USAGE : python3 combined_script.py <target_ip> <path_to_lnk_file>
+```bash
+USAGE : python3 combined_script.py <target_ip> <path_to_lnk_file>
+```
 """
 Create evil.lnk file: 
 
